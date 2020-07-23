@@ -1,0 +1,20 @@
+{
+    "name": "ohader/php-proxies",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Oliver Hader",
+            "email": "oliver@typo3.org"
+        }
+    ],
+    "require": {
+        "clue/http-proxy-react": "^1.5",
+        "clue/socks-react": "^1.1",
+        "ext-sockets": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "OliverHader\\PhpProxies\\": "src/"
+        }
+    }
+}
